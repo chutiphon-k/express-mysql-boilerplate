@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./src/index.js --exec babel-node"
+    "dev": "nodemon ./src/bin/server.js --exec babel-node"
   },
   "repository": "https://chutiphon-k@github.com/chutiphon-k/express-mysql-boilerplate.git",
   "author": "Chutiphon.k <chutiphon.k@ku.th>",
@@ -15,6 +15,7 @@
     "body-parser": "^1.16.0",
     "compression": "^1.6.2",
     "config": "^1.25.1",
+    "cors": "^2.8.1",
     "express": "^4.15.2"
   },
   "devDependencies": {
