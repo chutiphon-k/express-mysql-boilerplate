@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./src/bin/server.js --exec babel-node"
+    "dev": "nodemon ./src/bin/server.js --exec babel-node",
+    "test": "nodemon bookshelf --exec babel-node"
   },
   "repository": "https://chutiphon-k@github.com/chutiphon-k/express-mysql-boilerplate.git",
   "author": "Chutiphon.k <chutiphon.k@ku.th>",
@@ -13,10 +14,13 @@
     "babel-preset-es2015": "^6.22.0",
     "babel-preset-stage-0": "^6.22.0",
     "body-parser": "^1.16.0",
+    "bookshelf": "^0.10.3",
     "compression": "^1.6.2",
     "config": "^1.25.1",
     "cors": "^2.8.1",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "knex": "^0.12.7",
+    "mysql": "^2.13.0"
   },
   "devDependencies": {
     "errorhandler": "^1.5.0",
