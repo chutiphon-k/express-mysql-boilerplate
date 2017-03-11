@@ -1,0 +1,8 @@
+{
+  "name": "express-mysql-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://chutiphon-k@github.com/chutiphon-k/express-mysql-boilerplate.git",
+  "author": "Chutiphon.k <chutiphon.k@ku.th>",
+  "license": "MIT"
+}
