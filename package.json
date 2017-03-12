@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "build": "knex migrate:latest && knex seed:run",
     "dev": "nodemon ./src/bin/server.js --exec babel-node",
-    "test": "nodemon bookshelf --exec babel-node"
+    "prod": "babel-node ./src/bin/server.js"
   },
   "repository": "https://chutiphon-k@github.com/chutiphon-k/express-mysql-boilerplate.git",
   "author": "Chutiphon.k <chutiphon.k@ku.th>",
