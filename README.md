@@ -13,12 +13,12 @@
   - Config your database in `knexfile.js`
   - Run command
   
-  ```bash
-  git clone https://github.com/chutiphon-k/express-mysql-boilerplate.git
-  npm install
-  npm run build # Migrate and seed database
-  npm run dev # For run development
-  ```
+```bash
+git clone https://github.com/chutiphon-k/express-mysql-boilerplate.git
+npm install
+npm run build # Migrate and seed database
+npm run dev # For run development
+```
 
 ## RESTful API
 
