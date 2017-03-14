@@ -8,6 +8,7 @@
 - Mysql
 - Knex
 - Bookshelf
+- Socket.io
 
 ## Using API
   - Config your database in `knexfile.js`
