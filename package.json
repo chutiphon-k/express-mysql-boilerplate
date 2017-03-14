@@ -21,7 +21,8 @@
     "cors": "^2.8.1",
     "express": "^4.15.2",
     "knex": "^0.12.7",
-    "mysql": "^2.13.0"
+    "mysql": "^2.13.0",
+    "socket.io": "^1.7.3"
   },
   "devDependencies": {
     "errorhandler": "^1.5.0",
