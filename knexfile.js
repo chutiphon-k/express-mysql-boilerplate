@@ -39,18 +39,22 @@ module.exports = {
   },
 
   production: {
-    client: 'postgresql',
+    client: 'mysql',
     connection: {
-      database: 'my_db',
-      user:     'username',
-      password: 'password'
+      host: '127.0.0.1',
+      port: 33060,
+      user: 'homestead',
+      password: 'secret',
+      database: 'test_boilerplate',
+      charset: 'utf8',
+      timezone: "UTC"
     },
-    pool: {
-      min: 2,
-      max: 10
-    },
+    useNullAsDefault: true,
     migrations: {
-      tableName: 'knex_migrations'
+      directory: './src/migrations'
+    },
+    seeds: {
+      directory: './src/seeds'
     }
   }
 
