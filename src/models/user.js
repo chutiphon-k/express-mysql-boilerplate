@@ -1,4 +1,4 @@
-import bookshelf from '../../bookshelf'
+import bookshelf from 'root/bookshelf'
 
 const User = bookshelf.Model.extend({
 	tableName: 'users',

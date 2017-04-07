@@ -9,7 +9,7 @@ module.exports = {
       port: 33060,
       user: 'homestead',
       password: 'secret',
-      database: 'test',
+      database: 'test_boilerplate',
       charset: 'utf8',
       timezone: "UTC"
     },
