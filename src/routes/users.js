@@ -1,4 +1,5 @@
 import { Router } from 'express'
+
 import { UserController } from 'src/controllers'
 
 const router = Router()

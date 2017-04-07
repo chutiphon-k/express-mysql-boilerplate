@@ -4,7 +4,8 @@ import nodeNotifier from 'node-notifier'
 import errorhandler from 'errorhandler'
 import compression from 'compression'
 import cors from 'cors'
-import routes from './routes'
+
+import routes from 'src/routes'
 
 const app = express()
 

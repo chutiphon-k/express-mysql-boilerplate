@@ -5,7 +5,6 @@
   "scripts": {
     "build": "knex migrate:latest && knex seed:run",
     "dev": "nodemon ./src/bin/server.js --exec babel-node",
-    "dev2": "nodemon index.js --exec babel-node",
     "prod": "babel-node ./src/bin/server.js"
   },
   "repository": "https://chutiphon-k@github.com/chutiphon-k/express-mysql-boilerplate.git",
