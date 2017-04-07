@@ -8,7 +8,6 @@ import cors from 'cors'
 import routes from 'src/routes'
 
 const app = express()
-console.log(process.env.NODE_ENV)
 
 if (process.env.NODE_ENV === 'development' || process.env.NODE_ENV === undefined) {
 	app.use(errorhandler({log: errorNotification}))
