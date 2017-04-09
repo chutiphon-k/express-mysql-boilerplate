@@ -1,12 +1,20 @@
 {
-    "extends": "standard",
-    "plugins": [
-        "standard",
-        "promise"
-    ],
-    "rules": {
-        "no-tabs": "off",        
-        "indent": ["error", "tab"],
-        "no-console": "warn"
-	}
+  "parser": "babel-eslint",
+  "extends": "standard",
+  "plugins": [
+      "standard",
+      "promise"
+  ],
+  "rules": {
+      "no-tabs": "off",        
+      "indent": ["error", "tab"],
+      "no-console": "warn"
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  }
 }
