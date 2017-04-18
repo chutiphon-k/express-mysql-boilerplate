@@ -1,11 +1,11 @@
 import { Router } from 'express'
 
-import example from 'src/routes/example'
-import users from 'src/routes/users'
+import web from 'src/routes/web'
+import api from 'src/routes/api'
 
 const router = Router()
 
-router.use('/', example)
-router.use('/users', users)
+router.use('/', web)
+router.use('/api', api)
 
 export default router

@@ -28,6 +28,6 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(compression())
 app.use(cors())
-app.use('/api', routes)
+app.use('/', routes)
 
 export default app
