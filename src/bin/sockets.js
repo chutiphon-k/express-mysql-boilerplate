@@ -1,17 +1,15 @@
 import SocketIO from 'socket.io'
 
-let sockets = {}
+let io
 
-sockets.init = (server) => {
-	const io = new SocketIO(server)
+let init = (server) => {
+	io = new SocketIO(server)
 	io.on('connect', (socket) => {
-		console.log('connect')
-		socket.emit('competitions', 'aaaaa')
-
-		socket.on('a', (response) => {
-			console.log(`${response}`)
-		})
+		socket.emit('timer', 'hello')
 	})
 }
 
-export default sockets
+export {
+	init,
+	io
+}
