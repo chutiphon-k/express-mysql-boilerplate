@@ -1,1 +1,1 @@
-export User from 'src/models/user'
+export User from 'models/user'

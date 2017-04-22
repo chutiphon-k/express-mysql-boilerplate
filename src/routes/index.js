@@ -1,7 +1,7 @@
 import { Router } from 'express'
 
-import web from 'src/routes/web'
-import api from 'src/routes/api'
+import web from 'routes/web'
+import api from 'routes/api'
 
 const router = Router()
 

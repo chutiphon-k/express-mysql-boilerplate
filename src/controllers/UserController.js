@@ -1,5 +1,5 @@
-import { User } from 'src/models'
-import { UserService } from 'src/services'
+import { User } from 'models'
+import { UserService } from 'services'
 
 const getUsers = (req, res) => {
 	UserService.getUsers().then((users) => {

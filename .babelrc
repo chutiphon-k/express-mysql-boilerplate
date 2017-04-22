@@ -2,10 +2,12 @@
 	"presets": ["es2015", "stage-0"],
 	"plugins": [
 		[
-			"module-alias", [
-				{ "src": "./src", "expose": "src" },
-				{ "src": "./", "expose": "root"}
-			]
+			"module-resolver", {
+				"root": ["./src"],
+				"alias": {
+					"root": "./"
+				}
+			}
 		]
 	]
 }

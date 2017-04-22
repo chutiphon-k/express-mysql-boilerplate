@@ -1,1 +1,1 @@
-export * as UserService from 'src/services/UserService'
+export * as UserService from 'services/UserService'

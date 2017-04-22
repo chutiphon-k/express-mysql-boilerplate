@@ -5,7 +5,7 @@ import errorhandler from 'errorhandler'
 import compression from 'compression'
 import cors from 'cors'
 
-import routes from 'src/routes'
+import routes from 'routes'
 
 const app = express()
 

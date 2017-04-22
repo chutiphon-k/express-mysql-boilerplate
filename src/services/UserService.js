@@ -1,4 +1,4 @@
-import { User } from 'src/models'
+import { User } from 'models'
 
 const getUsers = () => {
 	return User.forge().fetchAll().then((collection) => {
