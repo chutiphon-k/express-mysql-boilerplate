@@ -11,7 +11,7 @@ module.exports = {
       password: 'secret',
       database: 'test_boilerplate',
       charset: 'utf8',
-      timezone: "UTC"
+      timezone: "utc+7:00"
     },
     useNullAsDefault: true,
     migrations: {
