@@ -5,7 +5,7 @@ import api from 'routes/api'
 
 const router = Router()
 
-router.use('/', web)
 router.use('/api', api)
+router.use('/', web)
 
 export default router
